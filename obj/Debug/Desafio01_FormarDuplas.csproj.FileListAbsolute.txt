@@ -1,0 +1,7 @@
+E:\Dayane\Faculdade\2Semestre\Algoritmo\1BIM\N1\Desafio01_FormarDuplas\bin\Debug\Desafio01_FormarDuplas.exe.config
+E:\Dayane\Faculdade\2Semestre\Algoritmo\1BIM\N1\Desafio01_FormarDuplas\bin\Debug\Desafio01_FormarDuplas.exe
+E:\Dayane\Faculdade\2Semestre\Algoritmo\1BIM\N1\Desafio01_FormarDuplas\bin\Debug\Desafio01_FormarDuplas.pdb
+E:\Dayane\Faculdade\2Semestre\Algoritmo\1BIM\N1\Desafio01_FormarDuplas\obj\Debug\Desafio01_FormarDuplas.csprojAssemblyReference.cache
+E:\Dayane\Faculdade\2Semestre\Algoritmo\1BIM\N1\Desafio01_FormarDuplas\obj\Debug\Desafio01_FormarDuplas.csproj.CoreCompileInputs.cache
+E:\Dayane\Faculdade\2Semestre\Algoritmo\1BIM\N1\Desafio01_FormarDuplas\obj\Debug\Desafio01_FormarDuplas.exe
+E:\Dayane\Faculdade\2Semestre\Algoritmo\1BIM\N1\Desafio01_FormarDuplas\obj\Debug\Desafio01_FormarDuplas.pdb
