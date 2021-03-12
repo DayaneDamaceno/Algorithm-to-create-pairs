@@ -10,17 +10,16 @@ namespace Desafio01_FormarDuplas
     {
         static void Main(string[] args)
         {
-            int[] RAs = new int[7];
+            int numAlunos = ValidaInt("Quantos alunos tem na turma?");
+            int[] RAs = new int[numAlunos];
 
-            RAs[0] = 111;
-            RAs[1] = 112;
-            RAs[2] = 113;
-            RAs[3] = 114;
-            RAs[4] = 115;
-            RAs[5] = 116;
-            RAs[6] = 117;
+            for (int i = 0; i < RAs.Length; i++)
+            {
+                RAs[i] = ValidaInt($"RA do {i + 1}º aluno:");
+            }
 
             string[] duplas = CriarDuplas(RAs);
+            Console.WriteLine("\nDuplas:");
 
             foreach (var dupla in duplas)
             {
@@ -29,7 +28,7 @@ namespace Desafio01_FormarDuplas
 
             Console.ReadKey();
         }
-
+        
         static string[] CriarDuplas(int[] RAs)
         {
             string[] duplas = new string[RAs.Length / 2];
@@ -57,7 +56,7 @@ namespace Desafio01_FormarDuplas
 
             return duplas;
         }
-
+        
         static int[] GerarArrayAleatorio(int valorMax)
         {
             Random gerador = new Random();
@@ -84,6 +83,26 @@ namespace Desafio01_FormarDuplas
             }
 
             return numerosAleatorios;
+        }
+
+        static int ValidaInt(string mensagem)
+        {
+            int valor = -1;
+            do
+            {
+                try
+                {
+                    Console.Write(mensagem);
+                    valor = Convert.ToInt32(Console.ReadLine());
+                }
+                catch
+                {
+                    Console.WriteLine("\nPor favor digite apenas números, maiores que 0!!\n");
+
+                }
+            } while (valor <= 0);
+
+            return valor;
         }
     }
 }
